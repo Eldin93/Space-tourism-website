@@ -10,7 +10,7 @@
 /* MOBILE FIRST DEVELOPEMENT */
 
 body {
-  background: url(images/destination/background-destination-desktop.jpg);
+  background: url(images/home/background-home-desktop.jpg);
   color: #ffffff;
   font-family: "Barlow Condensed", sans-serif;
   background-repeat: no-repeat;
@@ -105,6 +105,13 @@ body {
 }
 
 /* MAIN CONTENT DESTINATION PAGES */
+.destinations {
+  background: url(images/destination/background-destination-desktop.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
 
 #destination {
   color: #ffffff;
