@@ -10,7 +10,7 @@
 /* MOBILE FIRST DEVELOPEMENT */
 
 body {
-  background: url(./home/background-home-desktop.jpg);
+  background: url(/images/home/background-home-desktop.jpg);
   color: #ffffff;
   font-family: "Barlow Condensed", sans-serif;
   background-repeat: no-repeat;
@@ -163,7 +163,7 @@ body {
 /* MAIN CONTENT CREW PAGES */
 
 .crew {
-  background: url(./crew/background-crew-mobile.jpg);
+  background: url(/images/crew/background-crew-mobile.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -211,7 +211,7 @@ body {
 }
 
 .technology {
-  background: url(./technology/background-technology-mobile.jpg);
+  background: url(/images/technology/background-technology-mobile.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;

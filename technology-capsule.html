@@ -9,7 +9,7 @@
       sizes="32x32"
       href="./assets/favicon-32x32.png"
     />
-    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -29,9 +29,9 @@
     <title>Frontend Mentor | Space tourism website</title>
   </head>
   <body>
-    <main class="crew">
+    <main class="technology">
       <div class="topnav">
-        <a href="index.html" class="active"
+        <a href="/index.html" class="active"
           ><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
             <g fill="none" fill-rule="evenodd">
               <circle cx="24" cy="24" r="24" fill="#FFF" />
@@ -43,10 +43,10 @@
           </svg>
         </a>
         <div id="myLinks">
-          <a href="index.html">00 HOME</a>
-          <a href="destination-moon.html">01 DESTINATION</a>
-          <a href="crew-commander.html">02 CREW</a>
-          <a href="technology-vehicle.html">03 TECHNOLOGY</a>
+          <a href="/index.html">00 HOME</a>
+          <a href="/destination-moon.html">01 DESTINATION</a>
+          <a href="/crew-commander.html">02 CREW</a>
+          <a href="/technology-vehicle.html">03 TECHNOLOGY</a>
         </div>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
           <!-- <i class="fa fa-bars"></i>--><svg
@@ -61,20 +61,24 @@
         </a>
       </div>
       <section class="main-content">
-        <h4 id="destination">02 MEET YOUR CREW</h4>
-        <img id="crew-img" src="./assets/crew/image-douglas-hurley.png" />
-        <ul id="crew-links">
-          <li><a href="crew-commander.html" class="active"></a></li>
-          <li><a href="crew-specialist.html"></a></li>
-          <li><a href="crew-pilot.html"></a></li>
-          <li><a href="crew-engineer.html"></a></li>
+        <h4 id="destination"><span id="number">03</span> SPACE LAUNCH 101</h4>
+        <img
+          id="technology-img"
+          src="/images/technology/image-space-capsule-landscape.jpg"
+        />
+        <ul id="technology-links">
+          <li><a href="/technology-vehicle.html">1</a></li>
+          <li><a href="/technology-spaceport.html">2</a></li>
+          <li><a href="/technology-capsule.html" class="active">3</a></li>
         </ul>
-        <h5 id="crew-title">COMMANDER</h5>
-        <h1 id="crew-name">DOUGLAS HURLEY</h1>
+        <h5 id="technology-title">THE TERMINOLOGY...</h5>
+        <h1 id="crew-name">SPACE CAPSULE</h1>
         <p id="description ">
-          Douglas Gerald Hurley is an American engineer, former Marine Corps
-          pilot and former NASA astronaut. He launched into space for the third
-          time as commander of Crew Dragon Demo-2.
+          A space capsule is an often-crewed spacecraft that uses a blunt-body
+          reentry capsule to reenter the Earth's atmosphere without wings. Our
+          capsule is where you'll spend your time during the flight. It includes
+          a space gym, cinema, and plenty of other activities to keep you
+          entertained.
         </p>
       </section>
     </main>

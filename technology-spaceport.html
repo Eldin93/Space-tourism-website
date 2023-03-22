@@ -9,7 +9,7 @@
       sizes="32x32"
       href="./assets/favicon-32x32.png"
     />
-    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -29,9 +29,9 @@
     <title>Frontend Mentor | Space tourism website</title>
   </head>
   <body>
-    <main class="crew">
+    <main class="technology">
       <div class="topnav">
-        <a href="index.html" class="active"
+        <a href="/index.html" class="active"
           ><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
             <g fill="none" fill-rule="evenodd">
               <circle cx="24" cy="24" r="24" fill="#FFF" />
@@ -43,10 +43,10 @@
           </svg>
         </a>
         <div id="myLinks">
-          <a href="index.html">00 HOME</a>
-          <a href="destination-moon.html">01 DESTINATION</a>
-          <a href="crew-commander.html">02 CREW</a>
-          <a href="technology-vehicle.html">03 TECHNOLOGY</a>
+          <a href="/index.html">00 HOME</a>
+          <a href="/destination-moon.html">01 DESTINATION</a>
+          <a href="/crew-commander.html">02 CREW</a>
+          <a href="/technology-vehicle.html">03 TECHNOLOGY</a>
         </div>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
           <!-- <i class="fa fa-bars"></i>--><svg
@@ -61,21 +61,23 @@
         </a>
       </div>
       <section class="main-content">
-        <h4 id="destination">02 MEET YOUR CREW</h4>
-        <img id="crew-img" src="./assets/crew/image-anousheh-ansari.png" />
-        <ul id="crew-links">
-          <li><a href="crew-commander.html"></a></li>
-          <li><a href="crew-specialist.html"></a></li>
-          <li><a href="crew-pilot.html"></a></li>
-          <li><a href="crew-engineer.html" class="active"></a></li>
+        <h4 id="destination"><span id="number">03</span> SPACE LAUNCH 101</h4>
+        <img
+          id="technology-img"
+          src="/images/technology/image-spaceport-landscape.jpg"
+        />
+        <ul id="technology-links">
+          <li><a href="/technology-vehicle.html">1</a></li>
+          <li><a href="/technology-spaceport.html" class="active">2</a></li>
+          <li><a href="/technology-capsule.html">3</a></li>
         </ul>
-        <h5 id="crew-title">FLIGHT ENGINEER</h5>
-        <h1 id="crew-name">ANOUSHEH ANSARI</h1>
+        <h5 id="technology-title">THE TERMINOLOGY...</h5>
+        <h1 id="crew-name">SPACEPORT</h1>
         <p id="description ">
-          Anousheh Ansari is an Iranian American engineer and co-founder of
-          Prodea Systems. Ansari was the fourth self-funded space tourist, the
-          first self-funded woman to fly to the ISS, and the first Iranian in
-          space.
+          A spaceport or cosmodrome is a site for launching (or receiving)
+          spacecraft, by analogy to the seaport for ships or airport for
+          aircraft. Based in the famous Cape Canaveral, our spaceport is ideally
+          situated to take advantage of the Earth’s rotation for launch.
         </p>
       </section>
     </main>
