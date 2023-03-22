@@ -163,7 +163,7 @@ body {
 /* MAIN CONTENT CREW PAGES */
 
 .crew {
-  background: url(/images/crew/background-crew-mobile.jpg);
+  background: url(./images/crew/background-crew-mobile.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -211,7 +211,7 @@ body {
 }
 
 .technology {
-  background: url(/images/technology/background-technology-mobile.jpg);
+  background: url(./images/technology/background-technology-mobile.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;

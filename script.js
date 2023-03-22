@@ -17,7 +17,7 @@ for (let i = 0; i < links.length; i++) {
 }
 
 function toDestination() {
-  window.location.href = "destination-moon.html";
+  window.location.href = "./destination-moon.html";
 }
 
 function navigateToPage(url) {
