@@ -1,0 +1,256 @@
+/* ---- RESET ---- */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* MOBILE FIRST DEVELOPEMENT */
+
+body {
+  background: url(./home/background-home-desktop.jpg);
+  color: #ffffff;
+  font-family: "Barlow Condensed", sans-serif;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.page-transition {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* NABVAR */
+
+.topnav {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  padding: 0 1em;
+}
+
+.topnav #myLinks {
+  display: block;
+}
+
+.topnav a {
+  color: #ffffff;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+}
+
+.topnav a.icon {
+  display: block;
+  color: #ffffff;
+}
+
+.topnav a:hover {
+  color: #d0d6f9;
+}
+
+/* MAIN CONTENT HOME PAGE*/
+
+.main-content {
+  width: 327px;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-content h4 {
+  letter-spacing: 2.36px;
+  font-size: 18px;
+  font-weight: 200;
+  color: #d0d6f9;
+  margin-bottom: 16px;
+}
+
+.main-content h1 {
+  font-size: 80px;
+  font-family: "Bellefair", serif;
+  font-weight: 200;
+  margin-bottom: 16px;
+}
+
+.main-content p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #d0d6f9;
+  line-height: 25px;
+  letter-spacing: 1.1px;
+  margin-bottom: 80px;
+}
+
+.main-content button {
+  width: 150px;
+  height: 150px;
+  font-family: "Bellefair", serif;
+  font-weight: 400;
+  color: #0b0d17;
+  font-size: 20px;
+  border-radius: 50%;
+  border: none;
+}
+
+/* MAIN CONTENT DESTINATION PAGES */
+
+#destination {
+  color: #ffffff;
+  margin-bottom: 32px;
+}
+
+.main-content img {
+  width: 170px;
+  margin-bottom: 1.62em;
+  filter: brightness(120%);
+}
+
+.main-content ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1.93em;
+}
+
+.main-content ul li {
+  margin: 0 1em;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 14px;
+  color: #d0d6f9;
+  letter-spacing: 2.35px;
+}
+
+.main-content ul li a {
+  text-decoration: none;
+  color: #d0d6f9;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 8px;
+}
+
+#title {
+  font-size: 56px;
+}
+
+#description {
+  padding-bottom: 32px;
+  border-bottom: #383b4b 2px solid;
+  margin-bottom: 32px;
+}
+
+#distance,
+#duration {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.main-content ul li a.active {
+  color: white;
+  border-bottom-color: white;
+}
+
+/* MAIN CONTENT CREW PAGES */
+
+.crew {
+  background: url(./crew/background-crew-mobile.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+#crew-links li {
+  background-color: gray;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+#crew-links a {
+  display: block;
+}
+
+#crew-links a.active {
+  color: white;
+  background-color: white;
+  border-radius: 50%;
+}
+
+#crew-img {
+  border-bottom: #383b4b 2px solid;
+}
+
+#crew-title {
+  font-family: "Bellefair", serif;
+  font-size: 16px;
+  color: gray;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+#crew-name {
+  font-size: 24px;
+}
+
+/* TECHNOLOGY CONTENT */
+
+#technology-img {
+  width: 375px;
+  margin-bottom: 40px;
+}
+
+.technology {
+  background: url(./technology/background-technology-mobile.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+#technology-links {
+  margin-bottom: 46px;
+}
+
+#technology-links a {
+  border: 1px solid #ffffff;
+  padding: 1em 1.2em;
+  border-radius: 50%;
+}
+
+#technology-links a.active {
+  background-color: #ffffff;
+  color: #0b0d17;
+}
+
+#technology-title {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 16px;
+  color: #d0d6f9;
+  font-weight: 400;
+  margin-bottom: 8px;
+  letter-spacing: 2.36px;
+}
+
+#number {
+  opacity: 0.25;
+}
+
+/* MEDIA QUERIS */
+
+@media screen and (min-width: 900px) {
+  .main-content {
+    width: 450px;
+    text-align: justify;
+  }
+}
